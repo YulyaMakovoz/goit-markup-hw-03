@@ -129,7 +129,7 @@ img {
   background-color: var(--background-darkgrey);
   /* text-align: center; */
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .container.hero {
   text-align: center;
@@ -233,7 +233,7 @@ img {
   /* background-color: rebeccapurple; */
   
 }
-.section.activity-title {
+.activity-title {
   font-style: normal;
   font-size: 36px;
   line-height: 1.16;
@@ -267,13 +267,14 @@ img {
 .team-card.list {
   display: flex;
 }
-.section-team-title {
+.team-title {
   font-style: normal;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   margin-top: 0;
-  /* padding-top: 94px; */
+  margin-bottom: 50px;
+  
 }
 .team-person .name {
   font-style: normal;
@@ -296,13 +297,12 @@ img {
 }
 
 /*footer*/
-.container.footer {
+.footer-nav {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-footer {
   background-color: var(--background-darkgrey);
 }
+
 .adress {
   color: var(--brand-white-color);
 
@@ -340,6 +340,7 @@ footer {
   display: inline-block;
 
   padding-bottom: 20px;
+  margin-right: 0;
 }
 
 /*portfolio.html*/
